@@ -16,7 +16,7 @@ const PlaylistSchema: z.ZodType<Playlist> = z.object({
 });
 
 export const FormInfoSchema = z.object({
-  name: z.string().min(2),
+  name: z.string().trim().min(2),
   faceImage: z.string().optional(),
   track: PlaylistSchema,
   keyValue: KeyTypeSchema,

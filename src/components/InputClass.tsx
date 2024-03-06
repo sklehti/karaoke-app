@@ -9,7 +9,7 @@ const InputClass = ({ setUserName, userName, error }: InputProps) => {
         <div
           className="alert-text"
           style={
-            userName.length < 2 && error
+            userName.trim().length < 2 && error
               ? { display: "initial" }
               : { display: "none" }
           }
@@ -22,7 +22,7 @@ const InputClass = ({ setUserName, userName, error }: InputProps) => {
         value={userName}
         onChange={({ target }) => setUserName(target.value)}
         className={
-          userName.length < 2 && error
+          userName.trim().length < 2 && error
             ? " input-base-style input-base-style-alert"
             : "input-base-style"
         }

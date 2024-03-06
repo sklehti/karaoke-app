@@ -1,6 +1,6 @@
 # Kenno Karaoke
 
-This is a solution to the [Kenno Karaoke app](https://kenno-karaoke-app.vercel.app/)
+This is a solution to the [Kenno Karaoke app](https://karaoke-app-rho.vercel.app/)
 
 ## To run locally
 
