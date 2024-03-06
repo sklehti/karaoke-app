@@ -217,6 +217,9 @@ label {
   color: #fff;
   border: none;
 }
+.button-focus.btn-group-button:first-child {
+  border: none;
+}
 
 .checkbox-layout {
   position: relative;
