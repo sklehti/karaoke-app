@@ -12,10 +12,12 @@ body {
   justify-content: center;
   flex-direction: row;
   padding: 0 10px;
+  height: auto;
+  max-width: 100%;
 }
 
 .form-container {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
